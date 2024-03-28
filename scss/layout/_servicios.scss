@@ -1,0 +1,196 @@
+.bodyservices {
+    background-color: #ffe4c42d;
+}
+
+.hr {
+    width: 95%;
+    height: 70px;
+    background: #74716A;
+    margin-left: 50px;
+    border-radius: 0 150px 150px 0;
+}
+
+.hrfotografia {
+    width: 95%;
+    height: 70px;
+    background: #ffffff;
+    margin-left: 50px;
+    border-radius: 0 150px 150px 0;
+    margin-top: 50px;
+}
+
+.hrtexto {
+    display: flex;
+    justify-content: end;
+    font-family: "Dream";
+    font-size: 45px;
+    margin-right: 100px;
+    color: white;
+}
+
+.hrtextofotografia {
+    display: flex;
+    justify-content: end;
+    font-family: "Dream";
+    font-size: 45px;
+    margin-right: 100px;
+    color: #a5907b;
+}
+
+h4 {
+    margin: 100px ;
+    font-family: "Dream";
+    font-size: 50px;
+}
+
+
+
+.contenedorcards {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardservice {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #74716A,
+             -20px -20px 60px #CDCDCD;
+}
+
+.titulocard {
+    margin: 100px ;
+    font-family: "Dream";
+    font-size: 40px;
+    margin-top: 10px;
+    height: 70px;
+}
+
+.textocard {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;text-align: justify;
+    padding: 40px;
+    height: 200px;
+}
+
+.boton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 110px;
+    height: 20px;
+    -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: "Poppins";
+   font-size: 20px;
+   font-weight: 500;
+   padding: 13px;
+   background-color: rgb(63, 62, 62);
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #FFFFFF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   white-space: nowrap;
+}
+
+.boton:hover {
+    border: solid #000000 0;
+   background: #000000;
+   
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+   transition: 1s;
+}
+
+.posicionboton {
+    position: relative;
+}
+
+.hrmedio {
+    width: 80%;
+    margin: 0 5px 0 40px;
+}
+
+.fondofotografia {
+    background-image: linear-gradient(to left bottom, #a5907b, #c2a8a1, #d6c3c7, #e8e1e7, #ffffff);
+}
+
+.upfoto {
+    margin-bottom: -300px;
+}
+
+@media screen and (max-width: 768px) {
+    .boton {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .cardservice {
+        width: 90%;
+        max-width: 400px;
+        height: fit-content;
+        margin: 20px auto;
+    }
+
+    .hr, .hrfotografia {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;}
+
+    .fondocontacto {
+        padding: 20px;
+    }
+
+    h4 {
+        margin: 20px auto;
+        font-size: 20px;
+    }
+
+    .contenedorcards {
+        margin-top: 20px;
+    }
+
+    .cardservice {
+        width: 90%;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+
+    .titulocard {
+        margin: 10px auto;
+        font-size: 20px;
+    }
+
+    .textocard {
+        font-size: 14px;
+    }
+
+    .boton {
+        font-size: 14px;
+    }
+
+    .hrtextofotografia {
+        font-size: 27px;
+    }
+
+    .hrtexto {
+        font-size: 27px;
+        margin-left: 40px;
+    }
+}

@@ -1,0 +1,87 @@
+.fondocontacto {
+    background-color: #ffe4c42d;
+    padding: 50px;
+}
+
+.tarjetaposicion {
+    margin-top: 300px;
+    margin-left: 150px;
+    border-radius: 15px;
+}
+
+// FORMULARIO
+.formulario {
+    max-width: 500px;
+    margin: -500px 0 50px 65%;
+    background-image: url("../../assets/img/fondoparallax.png");
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin: 0 30px 20px 30px;
+}
+
+label {
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input {
+    background-color: #d8bb9ef1;
+}
+
+textarea {
+    resize: vertical;
+    background-color: #d8bb9e;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a5907b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: #998067;
+}
+
+@media screen and (max-width: 768px) {
+    .tarjetaposicion {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    .formulario {
+        margin: 20px auto;
+    }
+}
+
+.footercontacto {
+    margin-top: -300px;
+}

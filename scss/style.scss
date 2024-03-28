@@ -1,0 +1,26 @@
+//base
+@import "base/reset";
+@import "base/utilities";
+@import "base/variables";
+
+//components
+
+@import "components/navbar";
+@import "components/footer";
+
+//layout
+@import "layout/index";
+@import "layout/servicios";
+@import "layout/contacto";
+@import "layout/staff";
+@import "layout/mediaqueries";
+@import "layout/brandinginicial";
+@import "layout/brandingavanzado";
+@import "layout/communitymanager";
+@import "layout/fotografia";
+@import "layout/pautapublicitaria";
+
+@font-face {
+    font-family: "Dream";
+    src: url(../assets/fonts/Dream\ Avenue.ttf);
+}
