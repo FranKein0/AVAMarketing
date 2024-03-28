@@ -1028,6 +1028,14 @@ h6 {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column; /* Cambiar la dirección del flex-container a column */
+  }
+  .flex-items {
+    max-width: 100%; /* Establecer el ancho máximo al 100% para que ocupe todo el ancho */
+  }
+}
 .flex-containerft {
   margin-top: 50px;
   display: flex;
