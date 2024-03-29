@@ -67,13 +67,15 @@
   }
   
 
-@media screen and (max-width: 768px) {
-  .flex-container {
-    flex-direction: column; /* Cambiar la dirección del flex-container a column */
-  }
-
-  .flex-items {
-    max-width: 100%; /* Establecer el ancho máximo al 100% para que ocupe todo el ancho */
-  }
-
+  @media screen and (max-width: 768px) {
+   
+    .flex-container {
+      flex-direction: column !important; 
+    }
+  
+    
+    .flex-items:nth-child(1),
+    .flex-items:nth-child(2) {
+      max-width: 100% !important;
+    }
   }

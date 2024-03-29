@@ -19,19 +19,48 @@
 <body>
     <!-- header -->
     <header class="bgheader">
-      <nav class="nav" id="navbar">
-          <a href="index.html" class="nav-link">AVA Marketing</a>  
-          <a href="./pages/staff.html" class="nav-link">Nuestro equipo</a> 
-          <a href="./pages/servicios.html" class="nav-link">Servicios</a>
-          <a href="./pages/contacto.html" class="nav-link">Contacto</a> 
-          <div class="icon" onclick="toggleNav()">
-              <div class="btn-menu">
-                  <div class="btn-menu__bars"></div>
-              </div>
-          </div>
+      <nav class="menu-container">
+        <!-- burger menu -->
+        <input type="checkbox" aria-label="Toggle menu" />
+        <span></span>
+        <span></span>
+        <span></span>
+      
+        <!-- logo -->
+        <a href="index.html" class="menu-logo">
+          <img src="../assets/img/AVA LOGO.jpg" alt="AVALOGO"/>
+        </a>
+      
+        <!-- menu items -->
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="index.html">
+                AVA Marketing
+              </a>
+            </li>
+            <li>
+              <a href="./pages/staff.html">
+                Nuestro equipo
+              </a>
+            </li>
+            <li>
+              <a href="./pages/servicios.html">
+                Servicios
+              </a>
+            </li>
+            <li>
+              <a href="./pages/contacto.html">
+                Contacto
+              </a>
+            </li>
+          </ul>
+          <ul>
+          </ul>
+        </div>
       </nav>
       <div class="bgbanner">
-          <img class="bannerlogo" src="./assets/img/AVA LOGO.jpg" alt="bannerlogo">
+        <img class="bannerlogo" src="../assets/img/AVA LOGO.jpg" alt="bannerlogo">
       </div>
   </header>
   
@@ -41,10 +70,10 @@
       <!-- BANNER INICIO -->
 
       <section class="bannerinicio">
-        <div class="izquierda">
-          <h5>Hola, somos AVA</h5>
+        <div class="izquierda" class="contenedoranimacion">
+          <h5 class="animaciontexto">Hola, somos AVA</h5>
         <hr>
-        <p class="textoinicio">Te ofrecemos distintos planes que son totalmente
+        <p  class="textoinicio" class="animaciontexto">Te ofrecemos distintos planes que son totalmente
           adaptativos a tus necesidades y objetivos. Estamos
           comprometidos con las relaciones a largo plazo y
           queremos ayudarte a crecer de manera sostenida.</p>
