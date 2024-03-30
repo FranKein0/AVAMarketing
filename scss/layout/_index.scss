@@ -58,23 +58,23 @@ h5 {
 @media screen and (max-width: 768px) {
   .bannerinicio {
     width: 100%;
-    height: auto; /* Altura automática para ajustarse al contenido */
-    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+    height: auto;
+    padding: 20px;
   }
 
   .izquierda {
-    width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+    width: 90%;
     margin: 10px 0;
-    text-align: center; /* Centra el contenido */
+    text-align: center;
   }
 
   .textoinicio {
-    font-size: 16px; /* Tamaño de fuente más pequeño para dispositivos móviles */
-    padding-top: 20px; /* Menos espacio superior */
+    font-size: 16px;
+    padding-top: 20px;
   }
 
   h5 {
-    font-size: 50px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+    font-size: 50px;
   }
 }
 
@@ -127,21 +127,21 @@ h1 {
 
   .angry-grid {
       display: flex;
-      flex-direction: column; /* Colocar elementos uno debajo del otro */
-      align-items: center; /* Centrar elementos horizontalmente */
+      flex-direction: column;
+      align-items: center;
   }
 
   .item {
-      width: 100%; /* Ancho completo en dispositivos móviles */
+      width: 100%;
   }
 
   .item.imagenreunion {
-      margin-top: 50px; /* Espacio superior para la imagen en dispositivos móviles */
+      margin-top: 50px;
   }
 
   .item-1 {
     width: 80%;
-      margin-top: -300px; /* Espacio superior para el texto en dispositivos móviles */
+      margin-top: -300px;
       margin-left: -10%;
   }
 
